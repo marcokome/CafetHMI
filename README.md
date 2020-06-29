@@ -6,7 +6,7 @@ This project is a simple user interface for the management of snacks at IMT Atla
 
 Before this solution, we would: 1) login on the web interface, 2) select the product of interest and 3) debit our account. We propose a connected device which will identify you with your nfc tag, let you select your product and quantity and then validate ! In a few quick steps our account is debited.
 
-![Demo](https://github.com/marcokome/CafetHMI/master/demo.gif?raw=true)
+![Demo](https://github.com/marcokome/CafetHMI/blob/master/demo.gif)
 
 Install
 ----------------------
