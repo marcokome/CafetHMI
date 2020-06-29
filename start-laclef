@@ -1,0 +1,6 @@
+#/bin/bash
+
+cd ~/app/
+crontab -r
+crontab -u pi screen_mgnt.txt
+python3 start_app.py

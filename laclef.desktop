@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=LaClef
+Exec=sh /home/pi/app/start-laclef
