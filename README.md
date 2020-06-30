@@ -24,15 +24,12 @@ git clone https://github.com/marcokome/CafetHMI.git.
 cd CafetHMI
 python3 install.py
 ```
-On your PC, If everything is ok then modify the file ``start_app.py`` to set ``application.rpi`` variable to ``False``. Once modified, save the file and run it
-
-```
-python3 start_app.py
-```
 As a result, you should see the program waiting for a scan. This is a demo on your PC, so to simulate the badge reader, change the value of ``id`` in ``test.json`` according to the following values:
 - ``0``: still scanning
 - ``1``: the badge exists in db
 - ``2``: the badge is unknown.
+
+If everything is fine on your PC, then modify the file ``start_app.py`` to set ``application.rpi`` variable to ``False``. Once modified, save the file and send the content of this folder, ``CafetHMI``, to your raspberry pi and reboot.
 
 
 Licensing
