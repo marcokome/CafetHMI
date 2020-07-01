@@ -6,7 +6,7 @@ This project is a simple user interface for the management of snacks at IMT Atla
 
 Before this solution, we would: 1) login on the web interface, 2) select the product of interest and 3) debit our account. We propose a connected device which will identify you with your nfc tag, let you select your product and quantity and then validate ! In a few quick steps our account is debited.
 
-![Demo](https://github.com/marcokome/CafetHMI/blob/master/demo.gif)
+![Demo](demo.gif)
 
 Install
 ----------------------
@@ -17,7 +17,7 @@ The device consists of the parts depicted in the picture below:
 3. A buzzer
 4. An rfc reader
 
-![Parts](https://github.com/marcokome/CafetHMI/blob/master/parts.png)
+![Parts](parts.png)
 
 The interface is using ``PyQt5`` objects. I would recommend installing the project first on your personal computer for a first test. After cloning the project, run the install file. Make sure you have ``python 3.5.2`` or newer installed.
 
