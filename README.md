@@ -11,11 +11,13 @@ Before this solution, we would: 1) login on the web interface, 2) select the pro
 Install
 ----------------------
 
-The device consists of the parts depicted in the following picture:
+The device consists of the parts depicted in the picture below:
 1. A raspberry pi 3 with raspbian lite image
 2. An official raspberry pi touch screen
 3. A buzzer
 4. An rfc reader
+
+![Parts](https://github.com/marcokome/CafetHMI/blob/master/parts.png)
 
 The interface is using ``PyQt5`` objects. I would recommend installing the project first on your personal computer for a first test. After cloning the project, run the install file. Make sure you have ``python 3.5.2`` or newer installed.
 
